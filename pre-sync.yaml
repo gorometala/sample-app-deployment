@@ -12,5 +12,4 @@ spec:
         image: alpine:latest
         command: ["echo", "pre-sync"]
       restartPolicy: Never
-  backoffLimit: 0 #Doesn't retry failed jobs
- 
+  backoffLimit: 0
